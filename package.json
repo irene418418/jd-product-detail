@@ -1,0 +1,58 @@
+{
+  "name": "jd-product-detail",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "京东商品详情页 - 完整的电商商品详情页实现，包含规格选择、购物车集成等功能",
+  "keywords": [
+    "react",
+    "typescript",
+    "redux",
+    "vite",
+    "ecommerce",
+    "product-detail",
+    "jd",
+    "shopping-cart"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/jd-product-detail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/你的用户名/jd-product-detail/issues"
+  },
+  "homepage": "https://你的用户名.github.io/jd-product-detail/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "react-redux": "^9.1.2",
+    "axios": "^1.7.4",
+    "antd": "^5.20.0",
+    "dompurify": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/dompurify": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "less": "^4.2.0"
+  }
+}
